@@ -21,11 +21,9 @@ class AboutSection extends StatelessWidget {
               AboutTextWithSign(),
               Expanded(
                 child: AboutSectionText(
-                  text:
-                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                ),
+                    text:
+                        "I engineer solutions to problems presented to me regardless of the discipline which it resides in. I have experience in the Mechanical Engineering discipline, as well as Biology, Applied Mathematics, Big Data, and Software Development (mobile, game, web, engineering).\n\nMy diverse knowledge stems from my passion of learning and having a hardworking quality. When there is seriousness in the task at hand, I proceed with all of my efforts to try producing the best results. Because of my optimism and motivation, I finish the task despite a difficult situation. Hence, the reason why I can learn various things and produce solutions to any problem that is presented to me."),
               ),
-              ExperienceCard(numOfExp: "08"),
               Expanded(
                 child: AboutSectionText(
                   text:

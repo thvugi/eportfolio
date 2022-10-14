@@ -12,11 +12,10 @@ class _MenuState extends State<Menu> {
   int hoverIndex = 0;
   List<String> menuItems = [
     "Home",
-    "Abour",
-    "Services",
-    "Portfolio",
-    "Testimonial",
-    "Contact"
+    "About",
+    "Skills",
+    "Projects",
+    "Contact",
   ];
   @override
   Widget build(BuildContext context) {

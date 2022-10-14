@@ -15,12 +15,7 @@ class TopSection extends StatelessWidget {
       alignment: Alignment.center,
       constraints: BoxConstraints(maxHeight: 900, minHeight: 700),
       width: double.infinity,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          fit: BoxFit.cover,
-          image: AssetImage("assets/images/background.png"),
-        ),
-      ),
+      decoration: BoxDecoration(color: Color.fromRGBO(13, 27, 42, 1)),
       child: Container(
         margin: EdgeInsets.only(top: kDefaultPadding),
         width: 1200,

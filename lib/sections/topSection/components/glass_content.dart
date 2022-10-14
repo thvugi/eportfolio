@@ -29,23 +29,16 @@ class GlassContent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Hello There!",
-                style: Theme.of(context)
-                    .textTheme
-                    .headline5
-                    .copyWith(color: Colors.white),
-              ),
-              Text(
-                "Robbie \nRutherford",
+                "Vu \nGiang",
                 style: TextStyle(
                   fontSize: 100,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
-                  height: 1.5,
+                  height: 1.25,
                 ),
               ),
               Text(
-                "Creative Design Director",
+                "Engineer Multipotentialite",
                 style: Theme.of(context)
                     .textTheme
                     .headline5

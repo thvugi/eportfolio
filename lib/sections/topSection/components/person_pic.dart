@@ -8,7 +8,7 @@ class PersonPic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: BoxConstraints(maxWidth: 639, maxHeight: 860),
+      constraints: BoxConstraints(maxWidth: 850, maxHeight: 1000),
       child: Image.asset("assets/images/person.png"),
     );
   }
